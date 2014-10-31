@@ -9,7 +9,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
-gem 'sdoc', '~> 0.4.0'     
+gem 'sdoc', '~> 0.4.0' 
+gem 'devise', '~> 3.4.0' 
+gem 'bcrypt', '~> 3.1.9'
+gem 'libv8', '~> 3.16.14.7'
+gem 'therubyracer', '~> 0.12.1'  
 
 group :development, :test do
      gem 'sqlite3'
